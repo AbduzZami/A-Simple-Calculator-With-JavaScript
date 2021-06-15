@@ -1,18 +1,21 @@
 body{
     font-family:'Open Sans', 'sans-sherif';
-    background-color:rgb(31, 6, 6);
+    background-image: url(backgroundimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-h1,h4{
+h2,h5,h6{
     color: cornsilk;
-    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 
-h4{
-    font-weight: lighter;
+h5.h6{
+    font-weight:lighter;
 }
+
 #container{
-    width: 800px;
-    height: 650px;
+    width: auto;
+    height: 550px;
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(backgroundimage.jpg);
     margin: 20px auto;
     background-repeat: no-repeat;
@@ -107,4 +110,19 @@ button:nth-child(16){
 button:nth-child(20){
     font-size: 20px;
     background-color:mediumvioletred;
+}
+
+button:nth-child(1){
+    font-size: 20px;
+    background-color: red;
+}
+
+button:nth-child(2){
+    font-size: 20px;
+    background-color: orange;
+}
+
+button:nth-child(3){
+    font-size: 20px;
+    background-color:peachpuff;
 }
